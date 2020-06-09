@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar</item>
+        <item name="colorPrimaryDark">@color/darkorange</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <!-- action bar background -->
+        <item name="background">@color/orange</item>
+        <!-- action bar elevation -->
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+</resources>

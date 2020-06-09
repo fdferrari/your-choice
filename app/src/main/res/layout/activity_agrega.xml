@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yourchoice.AgregaActivity">
+
+    <EditText
+        android:id="@+id/name_alter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/name_alter"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/texto" />
+
+    <ImageButton
+        android:id="@+id/btn_ok_agrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_edit_agrega"
+        android:layout_toStartOf="@+id/btn_edit_agrega"
+        android:background="@null"
+        android:contentDescription="@string/ok"
+        android:elevation="12dp"
+        android:src="@drawable/ok" />
+
+    <ImageButton
+        android:id="@+id/btn_edit_agrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_add_agrega"
+        android:layout_toStartOf="@+id/btn_add_agrega"
+        android:background="@null"
+        android:contentDescription="@string/edit"
+        android:elevation="12dp"
+        android:src="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/btn_delete_agrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_info_agrega"
+        android:layout_toStartOf="@+id/btn_info_agrega"
+        android:background="@null"
+        android:contentDescription="@string/delete"
+        android:elevation="12dp"
+        android:src="@drawable/delete" />
+
+    <ListView
+        android:id="@+id/lista_alter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_ok_agrega"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name_alter"
+        android:layout_marginTop="15dp"
+        android:choiceMode="singleChoice"
+        tools:listitem="@android:layout/simple_list_item_single_choice" />
+
+    <ImageButton
+        android:id="@+id/btn_add_agrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_delete_agrega"
+        android:layout_toStartOf="@+id/btn_delete_agrega"
+        android:background="@null"
+        android:contentDescription="@string/add"
+        android:elevation="12dp"
+        android:src="@drawable/add" />
+
+    <ImageButton
+        android:id="@+id/btn_info_agrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:contentDescription="@string/ayuda"
+        android:elevation="12dp"
+        android:src="@drawable/help" />
+
+</RelativeLayout>

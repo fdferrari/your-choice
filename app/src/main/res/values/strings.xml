@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">YourChoice</string>
+    <string name="app_copy">Copyright © 2015 MingoBit. Todos los derechos reservados.</string>
+    <string name="app_msg">YourChoice 1.0.4</string>
+    <string name="action_inicio">Inicio</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_about">Acerca de YourChoice…</string>
+    <string name="action_salir">Salir</string>
+    <string name="title_section1">MODELA</string>
+    <string name="title_section2">AGREGA</string>
+    <string name="title_section3">DECIDE</string>
+    <string name="title_section4">RESULTADO</string>
+    <string name="name_modelo">Tu elección…</string>
+    <string name="name_caract">Ingrese una característica…</string>
+    <string name="name_alter">Ingrese una alternativa…</string>
+    <string name="name_resultado">Sin resultados…</string>
+    <string name="ok">ok</string>
+    <string name="edit">edit</string>
+    <string name="add">add</string>
+    <string name="delete">delete</string>
+    <string name="conj">conjunción</string>
+    <string name="disj">disjunción</string>
+    <string name="ayuda">ayuda</string>
+    <string name="sin_impo">Sin importancia</string>
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="btn_comenzar">COMENZAR</string>
+    <string name="btn_valorar">VALORAR</string>
+    <string name="btn_decidir">DECIDIR</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_close">CERRAR</string>
+
+    <string name="mensaje_inicio">
+        "Ingresá un nombre que describa el motivo de tu elección.\nPuede ser un viaje, una cosa, una carrera que quieras estudiar, un trabajo, etc.\nLuego presiona \"COMENZAR\""
+    </string>
+
+     <string name="mensaje_modela">
+         "Aquí, necesitas describir las características qué componen tu elección.\nSi estas eligiendo una computadora, por ejemplo, podes elegir como característica Procesador, Memoria, Disco Rígido, etc.\nPara cada característica nueva, indica la importancia que tiene para vos mediante las estrellas."
+    </string>
+
+     <string name="mensaje_agrega">
+         "Una vez que definiste las características, es necesario que indiques cuáles son tus alternativas.\nFinalmente, procede a valorarlas."
+    </string>
+
+     <string name="mensaje_polaridad">
+        "Una polaridad positiva, indica que el valor de salida correspondiente a una de las alternativas será tan bueno como el puntaje asignado a una de sus características.\nEn cambio, la polaridad negativa indica que el valor de salida será tan bueno como el peor de los puntajes asignados."
+    </string>
+
+
+</resources>

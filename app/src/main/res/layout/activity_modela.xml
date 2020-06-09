@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yourchoice.ModelaActivity">
+
+    <RatingBar
+        android:id="@+id/puntaje_caract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/name_caract"
+        android:layout_marginTop="5dp"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/texto"
+        android:progressTint="@color/orange"
+        android:rating="1"
+        android:secondaryProgressTint="@color/orange"
+        android:stepSize="1" />
+
+    <ListView
+        android:id="@+id/lista_caract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_delete_modela"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/texto_puntaje"
+        android:layout_marginTop="5dp"
+        android:choiceMode="singleChoice"
+        tools:listitem="@android:layout/simple_list_item_single_choice" />
+
+    <EditText
+        android:id="@+id/name_caract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lista_caract"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/lista_caract"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/name_caract"
+        android:inputType="text"
+        android:textColorHint="@color/texto" />
+
+    <TextView
+        android:id="@+id/texto_puntaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/sin_impo"
+        android:textColor="@color/texto"
+        android:layout_below="@+id/puntaje_caract"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/btn_delete_modela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_info_modela"
+        android:layout_toStartOf="@+id/btn_info_modela"
+        android:background="@null"
+        android:contentDescription="@string/delete"
+        android:elevation="12dp"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/btn_edit_modela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_delete_modela"
+        android:layout_toStartOf="@+id/btn_delete_modela"
+        android:background="@null"
+        android:contentDescription="@string/edit"
+        android:elevation="12dp"
+        android:src="@drawable/edit" />
+
+    <ImageButton
+        android:id="@+id/btn_ok_modela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/btn_edit_modela"
+        android:layout_toStartOf="@+id/btn_edit_modela"
+        android:background="@null"
+        android:contentDescription="@string/ok"
+        android:elevation="12dp"
+        android:src="@drawable/ok" />
+
+    <ImageButton
+        android:id="@+id/btn_info_modela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/ayuda"
+        android:elevation="12dp"
+        android:src="@drawable/help"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/lista_caract"
+        android:layout_alignEnd="@+id/lista_caract" />
+
+</RelativeLayout>
