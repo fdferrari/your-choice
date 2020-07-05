@@ -2,9 +2,10 @@ package com.yourchoice.clases;
 
 import android.graphics.Paint;
 import android.graphics.Typeface;
-import android.support.annotation.NonNull;
+
 import android.text.TextPaint;
 import android.text.style.TypefaceSpan;
+import androidx.annotation.NonNull;
 
 /**
  * Created by federico on 20/10/2015.

@@ -37,7 +37,8 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="30dp"
         android:gravity="center_vertical|center_horizontal"
-        android:text="@string/app_copy" />
+        android:text="@string/app_copy"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/btn_cancel_about"
