@@ -22,7 +22,9 @@ jobs:
       with:
         path: ~/.gradle/caches
         key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
-        restore-keys: ${{ runner.os }}-gradle
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+          ${{ runner.os }}-
     - name: Build with Gradle
       run: |
         chmod +x ./gradlew
